@@ -89,7 +89,7 @@
                 /*background-color: #7db9e8; 
                 border: 2px solid black;
             */
-                background-image: url(assets/images/logos/LOGO1c.png);
+                background-image: url(assets/images/logos/logo1c.png);
                 background-size:contain; 
                 background-repeat:no-repeat;
                 background-position:bottom right; 
@@ -209,7 +209,7 @@
                 /*grid-template-columns: 1; 
                 grid-template-rows: 1; */
                 /*background-color:blue; */
-                background-image: url(assets/images/logos/LOGO2D.png);
+                background-image: url(assets/images/logos/logo2d.png);
                 align-self:center;
                 align-content:center;
                 /*height:100%; */
