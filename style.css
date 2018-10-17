@@ -63,11 +63,19 @@
                 /*** AAA This is how I can easily play with the page layout */
                 /* I think this will be easier than explicitly defining all the columns etc. */ 
                 grid-template-columns: 170px repeat(3, 1fr) 50px;
-                
+               
+                /*
                 grid-template-areas:
                     "top-bar top-bar top-bar top-bar top-bar"
                     "side mainarea mainarea mainarea gutter"
                     "side services services services gutter"
+                    "side partners partners partners gutter"
+                    "footer footer footer footer footer"
+                 I am going to eliminate the services bar for now. See if this will vertically center the main image. */
+
+                grid-template-areas:
+                    "top-bar top-bar top-bar top-bar top-bar"
+                    "side mainarea mainarea mainarea gutter"
                     "side partners partners partners gutter"
                     "footer footer footer footer footer"
             }
@@ -241,6 +249,7 @@
                 /*background-color: orange; */
                 /* border: solid 10px blue; */
                 display:inline-block; /***AAA THIS FIXED MY LINK Line-jumping-on-the-link problem */
+                /* display:grid; TESTING ONLY ... got rid of this because it messes up text pages. NOTE: This DOES fix the vertical alignment of the index.html image.*/
                 min-height: 400px; 
                 justify-content:center;
                 justify-items:center;
@@ -253,6 +262,21 @@
                 margin:0;
                 font-family: Times, 'Times New Roman', serif;
                 
+
+            }
+
+            /* I've made a separate style for the index.html page where my main area features only an image. Here I use display:grid to make it possible to vertically center the image without doing unwanted things to the text. NOTE: I can't use it "generally" - ie I can't use display:grid on my text-based pages because ... I can't get the text to align correctly. So for now I've just made two different styles. It's easy enough as a fix, I guess ... There's probably a better way to do it. */
+            .main-area-logo-only {
+                grid-area:mainarea;
+                display:grid;
+                justify-content:center;
+                justify-items:center;
+                justify-self:center;
+                align-self:center;
+                align-content:center;
+                align-items:center;
+                min-height: 400px; 
+                min-height: 400px; 
 
             }
 
@@ -272,6 +296,10 @@
                 background-size:contain; 
                 background-repeat:no-repeat;
                 background-position:center; 
+                align-self:center;
+                align-content:center;
+                align-items:center;
+
 
             }
 
