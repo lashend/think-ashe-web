@@ -186,6 +186,111 @@
         }
 
 
+            .img-person-2 {
+                height:80px; 
+                width:85px;
+                background-image: url(img-ashe1.jpg);
+                background-size:contain; 
+                background-repeat:no-repeat;
+                background-position:center; 
+
+                float: left;
+                margin:10px;
+                display:inline-block;
+                vertical-align: middle;
+                object-fit:contain;
+                overflow:hidden;
+                width: 85px;
+                height: 80px;
+                border-radius: 50%; 
+                shape-outside: circle(50%); 
+                border: solid 2px  #863838;
+    }
+
+            .img-person-3 {
+                height:80px; 
+                width:85px;
+                background-image: url(img-ashe1.jpg);
+                background-size:contain; 
+                background-repeat:no-repeat;
+                background-position:center; 
+
+                float: left;
+                margin:10px;
+                display:inline-block;
+                vertical-align: middle;
+                object-fit:contain;
+                overflow:hidden;
+                width: 85px;
+                height: 80px;
+                border-radius: 50%; 
+                shape-outside: circle(50%); 
+                border: solid 2px  #863838;
+}
+
+                .img-person-4 {
+                    height:80px; 
+                    width:85px;
+                    background-image: url(img-ashe1.jpg);
+                    background-size:contain; 
+                    background-repeat:no-repeat;
+                    background-position:center; 
+
+                    float: left;
+                    margin:10px;
+                    display:inline-block;
+                    vertical-align: middle;
+                    object-fit:contain;
+                    overflow:hidden;
+                    width: 85px;
+                    height: 80px;
+                    border-radius: 50%; 
+                    shape-outside: circle(50%); 
+                    border: solid 2px  #863838;
+                }
+
+                .img-person-5 {
+                    height:80px; 
+                    width:85px;
+                    background-image: url(img-ashe1.jpg);
+                    background-size:contain; 
+                    background-repeat:no-repeat;
+                    background-position:center; 
+
+                    float: left;
+                    margin:10px;
+                    display:inline-block;
+                    vertical-align: middle;
+                    object-fit:contain;
+                    overflow:hidden;
+                    width: 85px;
+                    height: 80px;
+                    border-radius: 50%; 
+                    shape-outside: circle(50%); 
+                    border: solid 2px  #863838;
+                }
+
+                .img-person-6 {
+                    height:80px; 
+                    width:85px;
+                    background-image: url(img-ashe1.jpg);
+                    background-size:contain; 
+                    background-repeat:no-repeat;
+                    background-position:center; 
+
+                    float: left;
+                    margin:10px;
+                    display:inline-block;
+                    vertical-align: middle;
+                    object-fit:contain;
+                    overflow:hidden;
+                    width: 85px;
+                    height: 80px;
+                    border-radius: 50%; 
+                    shape-outside: circle(50%); 
+                    border: solid 2px  #863838;
+                }
+
             .intro-text {
                 grid-column: 1 / span 2;
                 font-family:"Arial Narrow", Arial, sans-serif;
