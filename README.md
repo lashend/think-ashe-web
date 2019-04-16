@@ -1,6 +1,6 @@
 # think-ashe-web
 
-Your site is published at https://lashend.github.io/thinkashe/
+Find this site live at www.leahashe.com. 
 
 TO DO: 
 1. Figure out why LinkedIn link won't render but its bitly substitute well. Try subbing it in and out again? 
